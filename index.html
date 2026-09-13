@@ -4,13 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPCA - Ensino Superior Público - Barcelos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logotipo">
-            <img src="UPCA.svg" alt="Logótipo UPCA">
-        </div>
-        <nav class="navigation"></nav>
+    <header class="header">
+        <!-- Exemplo de uso de classes e id -->
+        <h1 class="titulo titulo2" style="color: blue;" id="tituloId">IPCA - Ensino Superior Público - Barcelos</h1>
+        
+        <div class="header-container">
+            <div>
+                <img class="logotipo" src="UPCA.svg" alt="Logótipo UPCA">
+            </div>
+            <div class="form-nav-container">
+                <form>
+                    <label for="busca"></label>
+                    <input type="search" id="busca">
+                    <button type="submit">Enviar</button>
+                </form>
+                <nav class="navigation">
+                    <a>Estudar</a>
+                    <a>I&D+I</a>
+                    <a>Internacional</a>
+                    <a>Viver</a>
+                    <a>UPCA</a>
+                </nav>  
+            </div>        
+                       
+        </div>           
     </header>
+    <div>
+            <p>Vá para o Google</p>
+            <a href="https://google.com" target="_blank" rel="noopener noreferrer">Google</a>
+        </div>
+        <div>
+            <p>Vá para o YouTube</p>
+            <a href="https://youtube.com">YouTube</a>
+        </div>
+        <div>
+            <p>Vá para o site da UPCA</p>
+            <a href="https://ipca.pt/" target="_blank" rel="noopener noreferrer">UPCA</a>
+        </div>        
 </body>
 </html>
