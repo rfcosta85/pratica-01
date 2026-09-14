@@ -4,12 +4,8 @@
     box-sizing: border-box;
 }
 
-html {
-    /* font-size: 42px; */
-}
-
 p {
-    font-size: 1rem;
+    font-size:1rem;
 }
 
 body {
@@ -63,7 +59,7 @@ body {
 
 h1 {
     color: purple !important;
-    /* font-size: 50px; */
+    font-size: 50px;
 }
 
 a {
